@@ -1,0 +1,14 @@
+/*
+ * main.c
+ *
+ *  Created on: Sep 7, 2023
+ *      Author: Lenovo
+ */
+
+#include <stdio.h>
+
+void main(void){
+	fflush(stdout);
+	printf("hello world");
+
+}
