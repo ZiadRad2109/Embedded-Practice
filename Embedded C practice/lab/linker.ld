@@ -7,20 +7,23 @@ AY_ESM (rwx): ORIGIN =0x00000000 , LENGTH = 64M
 
 SECTIONS
 {
-	.startup :
+	. = 0x10000;
+	.startup . :
 	{
 		startup.o(.text)
-	}
+	}> AY_ESM
 	.text :
 	{
-		*(.text)
-	}
+		*(.text) *(.rodata)
+	}> AY_ESM
 	.data :
 	{
 		*(.data)
-	}
+	}> AY_ESM
 	.bss :
 	{
-		*(.bss)
-	}
+		*(.bss) *(COMMON)
+	}> AY_ESM
+	. = . + 0x1000;
+	stack_top = . ;
 }
