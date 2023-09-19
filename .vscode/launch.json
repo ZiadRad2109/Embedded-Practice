@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/COLLY/Courses/MBDD PRACTICE",
-      "program": "d:/COLLY/Courses/MBDD PRACTICE/build/Debug/outDebug",
+      "cwd": "d:/Courses/MBDD PRACTICE",
+      "program": "d:/Courses/MBDD PRACTICE/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
