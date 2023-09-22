@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1695401421 source:d:\courses\mbdd practice\codeblox\studentdatabase\main.c
+	"Student.h"
+
+1695399415 d:\courses\mbdd practice\codeblox\studentdatabase\student.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"Platform_Types.h"
+
+1694079314 d:\courses\mbdd practice\codeblox\studentdatabase\platform_types.h
+
