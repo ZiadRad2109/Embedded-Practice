@@ -174,13 +174,13 @@ void MCAL_USART_GPIO_Set_Pins(USART_TypeDef *USARTx)
         // PA9 Tx
         // PA10 Rx
 
-        PinCfg.GPIO_PinNumber = GPIO_PIN_9;
-        PinCfg.GPIO_MODE = GPIO_MODE_AF_PP;
-        PinCfg.GPIO_Output_Speed = GPIO_SPEED_10MHZ;
+        PinCfg.GPIO_PinNumber = (uint8)GPIO_PIN_9;
+        PinCfg.GPIO_MODE = (uint8)GPIO_MODE_AF_PP;
+        PinCfg.GPIO_Output_Speed = (uint8)GPIO_SPEED_10MHZ;
         MCAL_GPIO_Init(GPIOA, &PinCfg);
 
-        PinCfg.GPIO_PinNumber = GPIO_PIN_10;
-        PinCfg.GPIO_MODE = GPIO_MODE_AF_INPUT;
+        PinCfg.GPIO_PinNumber = (uint8)GPIO_PIN_10;
+        PinCfg.GPIO_MODE = (uint8)GPIO_MODE_AF_INPUT;
         MCAL_GPIO_Init(GPIOA, &PinCfg);
     }
     else if (USARTx == USART2)
@@ -189,22 +189,22 @@ void MCAL_USART_GPIO_Set_Pins(USART_TypeDef *USARTx)
         // PA3 Rx
         // PA1 RTS
         // PA0 CTS
-        PinCfg.GPIO_PinNumber = GPIO_PIN_2;
-        PinCfg.GPIO_MODE = GPIO_MODE_AF_PP;
-        PinCfg.GPIO_Output_Speed = GPIO_SPEED_10MHZ;
+        PinCfg.GPIO_PinNumber = (uint8)GPIO_PIN_2;
+        PinCfg.GPIO_MODE = (uint8)GPIO_MODE_AF_PP;
+        PinCfg.GPIO_Output_Speed = (uint8)GPIO_SPEED_10MHZ;
         MCAL_GPIO_Init(GPIOA, &PinCfg);
 
-        PinCfg.GPIO_PinNumber = GPIO_PIN_3;
-        PinCfg.GPIO_MODE = GPIO_MODE_AF_INPUT;
+        PinCfg.GPIO_PinNumber = (uint8)GPIO_PIN_3;
+        PinCfg.GPIO_MODE = (uint8)GPIO_MODE_AF_INPUT;
         MCAL_GPIO_Init(GPIOA, &PinCfg);
 
-        PinCfg.GPIO_PinNumber = GPIO_PIN_1;
-        PinCfg.GPIO_MODE = GPIO_MODE_AF_PP;
-        PinCfg.GPIO_Output_Speed = GPIO_SPEED_10MHZ;
+        PinCfg.GPIO_PinNumber = (uint8)GPIO_PIN_1;
+        PinCfg.GPIO_MODE = (uint8)GPIO_MODE_AF_PP;
+        PinCfg.GPIO_Output_Speed = (uint8)GPIO_SPEED_10MHZ;
         MCAL_GPIO_Init(GPIOA, &PinCfg);
 
-        PinCfg.GPIO_PinNumber = GPIO_PIN_0;
-        PinCfg.GPIO_MODE = GPIO_MODE_AF_INPUT;
+        PinCfg.GPIO_PinNumber = (uint8)GPIO_PIN_0;
+        PinCfg.GPIO_MODE = (uint8)GPIO_MODE_AF_INPUT;
         MCAL_GPIO_Init(GPIOA, &PinCfg);
     }
     else
@@ -213,22 +213,22 @@ void MCAL_USART_GPIO_Set_Pins(USART_TypeDef *USARTx)
         // PB11 Rx
         // PB14 RTS
         // PB13 CTS
-        PinCfg.GPIO_PinNumber = GPIO_PIN_10;
-        PinCfg.GPIO_MODE = GPIO_MODE_AF_PP;
-        PinCfg.GPIO_Output_Speed = GPIO_SPEED_10MHZ;
+        PinCfg.GPIO_PinNumber = (uint8)GPIO_PIN_10;
+        PinCfg.GPIO_MODE = (uint8)GPIO_MODE_AF_PP;
+        PinCfg.GPIO_Output_Speed = (uint8)GPIO_SPEED_10MHZ;
         MCAL_GPIO_Init(GPIOB, &PinCfg);
 
-        PinCfg.GPIO_PinNumber = GPIO_PIN_11;
-        PinCfg.GPIO_MODE = GPIO_MODE_AF_INPUT;
+        PinCfg.GPIO_PinNumber = (uint8)GPIO_PIN_11;
+        PinCfg.GPIO_MODE = (uint8)GPIO_MODE_AF_INPUT;
         MCAL_GPIO_Init(GPIOB, &PinCfg);
 
-        PinCfg.GPIO_PinNumber = GPIO_PIN_14;
-        PinCfg.GPIO_MODE = GPIO_MODE_AF_PP;
-        PinCfg.GPIO_Output_Speed = GPIO_SPEED_10MHZ;
+        PinCfg.GPIO_PinNumber = (uint8)GPIO_PIN_14;
+        PinCfg.GPIO_MODE = (uint8)GPIO_MODE_AF_PP;
+        PinCfg.GPIO_Output_Speed = (uint8)GPIO_SPEED_10MHZ;
         MCAL_GPIO_Init(GPIOB, &PinCfg);
 
-        PinCfg.GPIO_PinNumber = GPIO_PIN_13;
-        PinCfg.GPIO_MODE = GPIO_MODE_AF_INPUT;
+        PinCfg.GPIO_PinNumber = (uint8)GPIO_PIN_13;
+        PinCfg.GPIO_MODE = (uint8)GPIO_MODE_AF_INPUT;
         MCAL_GPIO_Init(GPIOB, &PinCfg);
     }
 }

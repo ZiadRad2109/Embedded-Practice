@@ -74,6 +74,7 @@ Std_ReturnType MCAL_RCC_Get_SYSCLK_Freq(void)
         return HSE_CLOCK;
         break;
     }
+    return 0;
 }
 
 /**================================================================
