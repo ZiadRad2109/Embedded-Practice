@@ -7,7 +7,7 @@
 <MainCode value="void __user_init() {"/>
 <MainCode value="}"/>
 <Optimized value="true" />
-<Validated value="CA;" />
+<Validated value="" />
 <Ignored value="" />
 
 <COMPONENT type="5000" id="25" >
