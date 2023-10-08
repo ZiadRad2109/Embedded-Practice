@@ -19,6 +19,7 @@
  *
  ******************************************************************************/
 #include "STM32F103X8.h"
+#include "Platform_Types.h"
 #include "STM32F103X8_GPIO_DRIVER.h"
 
 
